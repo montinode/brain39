@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "build:watch": "webpack --config webpack.config.js --watch",
+    "test": "jest", // or your preferred test runner
+    "lint": "eslint src"
+  }
+}
